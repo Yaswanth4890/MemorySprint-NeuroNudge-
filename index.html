@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Tester</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Scrolling Text -->
+      
+
+        <!-- Menu -->
+        <div class="menu">
+            <h1>Memory Tester</h1>
+            <button id="easy">Start Easy Level</button>
+            <button id="medium" class="locked">Start Medium Level</button>
+            <button id="hard" class="locked">Start Hard Level</button>
+        </div>
+
+        <!-- Game Container -->
+        <div class="game-container hidden">
+            <div class="display" id="status">Watch the sequence</div>
+            <div class="buttons">
+                <div id="button-1" class="button color1 circle"></div>
+                <div id="button-2" class="button color2 square"></div>
+                <div id="button-3" class="button color3 triangle"></div>
+                <div id="button-4" class="button color4 pentagon"></div>
+            </div>
+            <div id="credits-display">Credits: 0</div>
+            <button id="new-game" class="hidden">New Game</button>
+            <button id="restart" class="hidden">Restart</button>
+        </div>
+
+        <!-- Popup -->
+        <div id="popup" class="hidden">
+            <div id="popup-message"></div>
+            <button id="popup-close">Close</button>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
